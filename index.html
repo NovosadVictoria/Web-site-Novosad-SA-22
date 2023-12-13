@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>EL FA</title>
+    </head>
+    <body>
+      <header>
+        <div class="header_boss">
+            <div class="header_logo">
+                <img src="img/Лого001.png">
+            </div>
+            <div class="menu">
+                <nav class="header_list">
+                    <a class="one_one" class="fon_catalog" href="#catalog_one">Каталог</a>
+                    <a class="one" href="#about_us_one_two">Про нас</a>
+                    <a class="one" href="#vartist_one">Вартість</a>
+                    <a class="one" href="#kont_one">Контакти</a>
+                    <a class="one_two" class="fon_poshuk" href="#">Пошук</a>
+                    <a><img class="menu__btn" src="img/три полосочки.png"></a>
+                </nav>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="logo_center_one">
+                <img src="img/лого на фоні основне.png">
+            </div>
+            <div class="internet_magazin"> 
+                <a>Інтернет-магазин</a>
+            </div>
+            <div class="internet_magazin_doun"> 
+                <a>Рідин та електронних сигарет</a>
+            </div>
+            <div class="el_fa"> 
+                <a>"EL FA"</a>
+            </div>
+            <div class="zamovlenna"> 
+                <a class="yext">Зробити замовлення</a>
+            </div>
+        </div>
+        <div class="contactUS">
+            <span>Ми вам зателефонуємо!</span>
+                <form class="contactUScontainer">
+                    <div class="input-fields">
+                        <input type="text" id="name" class="input" placeholder="Ваше ПІБ">
+                        <input type="text" id="email" class="input" placeholder="Що хочете замовити?">
+                        <input type="text" id="phone" class="input" placeholder="Номер телефону">
+                        <input type="text" id="subject" class="input" placeholder="Ваш email">
+                    </div>
+                    <div class="msg">
+                        <textarea id="message" placeholder="Запитання" maxlength="500"></textarea>
+                        
+                    </div>
+                    <button type="button" class="btn" onclick="sendEmail()">Надіслати</button>
+                </form>
+        </div>
+      </header>
+      <main>
+        <section class="catalog">
+            <div class="top_cat">
+                <p id="catalog_one">Каталог</p>
+            </div>
+            <div class="sec_cat">
+                <div class="odnorazky">
+                    <div class="img_odnor">
+                        <img class="in_img_odnor" src="img/одноразки нові.png">
+                    </div>
+                    <div class="nazva_odnor">
+                        <p class="in_nazva_odnor">Одноразки</p>
+                    </div>
+                    <div class="list_odnor">
+                        <div class="in_list_odnor">
+                        <p>Elf bar 1500</p>
+                        <ul>
+                            <li>Banana ice</li>
+                            <li>Classic cola</li>
+                        </ul>
+                        <p>Elf bar 2000</p>
+                        <ul>
+                            <li>Mango peach melon</li>
+                            <li>Peach mango guava</li> 
+                            <li>Pineapple ice</li>
+                            <li>Watermelon lemon</li>
+                        </ul>
+                        <p>Elf Bar 4000</p>
+                        <ul>
+                            <li>Strawberry kiwi</li>
+                            <li>Blue razz lemonade</li>
+                            <li>Melon coconut</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="ridunu">
+                    <div class="img_odnor">
+                        <img class="in_img_odnor" src="img/рідини нові.png">
+                    </div>
+                    <div class="nazva_odnor">
+                        <p class="in_nazva_odnor">Рідини</p>
+                    </div>
+                    <div class="list_odnor">
+                        <div class="in_list_odnor">
+                        <p>Chaser 10мл</p>
+                        <ul>
+                            <li>Блакитна малина</li>
+                            <li>Ананас</li>
+                        </ul>
+                        <p>Chaser 15мл</p>
+                        <ul>
+                            <li>Чорний виноград</li>
+                            <li>Манго</li> 
+                            <li>Ліслва ожина</li>
+                            <li>Яблуко кальян</li>
+                        </ul>
+                        <p>Chaser 30мл</p>
+                        <ul>
+                            <li>Зріла вишня</li>
+                            <li>Дика смородина</li>
+                            <li>Манго лимон</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="kartrudzi">
+                    <div class="img_odnor">
+                        <img class="in_img_odnor" src="img/картриджі нові.png">
+                    </div>
+                    <div class="nazva_odnor">
+                        <p class="in_nazva_odnor">Картриджі</p>
+                    </div>
+                    <div class="list_odnor">
+                        <div class="in_list_odnor">
+                            <ul>
+                                <li>ELF BAR RF350</li>
+                                <li>SUORIN ACE</li>
+                                <li>VAPORESSO XROS</li>
+                                <li>AIRIS AURA</li> 
+                                <li>SUORIN AIR MINI</li>
+                                <li>LOST VAPE NANO</li>
+                                <li>VOOPOO ARGUS </li>
+                                <li>JUSTFOG</li>
+                                <li>OXVA XLIM V3</li>
+                                <li>SMOK NORD RPM</li>
+                                <li>SUORIN PRO</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="about_us">
+            <div class="top_ab_us">
+                <p id="about_us_one_two">Про нас</p>
+            </div>
+            <div class="about_us_one">
+                <div class="about_us_one_text">
+                    <p>
+                        Тютюнопаління — не просто шкідлива звичка, 
+                        а й причина низки серйозних проблем зі здоров'ям. 
+                        Не хочете чи не можете кинути? 
+                        Думаєте, чим замінити звичайні цигарки?  
+                    </p>
+                </div>
+                <div class="pict_about_us">
+                    <img src="img/значок1.png">
+                </div>
+            </div>
+            <div class="about_us_one">
+                <div class="about_us_one_text">
+                    <p>
+                        Вибирайте стильну та практичну альтернативу. 
+                        Інтернет магазин “EL FA” пропонує великий вибір 
+                        електронних сигарет, рідин та картриджів. 
+                    </p>
+                </div>
+                <div class="pict_about_us">
+                    <img src="img/значок2.png">
+                </div>
+            </div>
+            <div class="about_us_one">
+                <div class="about_us_one_text">
+                    <p>
+                        У вейпах міститься нікотин, але немає тютюну, 
+                        тому вони набагато безпечніші. 
+                        А головне, можна насолоджуватися 
+                        будь-яким ароматом. 
+                    </p>
+                </div>
+                <div class="pict_about_us">
+                    <img src="img/значок3.png">
+                </div>
+            </div>
+            <div class="about_us_one">
+                <div class="about_us_one_text">
+                    <p>
+                        Сьогодні як ніколи люди схильні до стресу: 
+                        події в країні, стосунки з близькими та друзями, 
+                        рутина — усі ці процеси втомлюють.
+                        Хочеться хоч іноді зробити паузу, 
+                        забути про турботи, скинути напругу. 
+                        Паріння чудорово допоможе розслабитися. 
+                    </p>
+                </div>
+                <div class="pict_about_us">
+                    <img src="img//значок4.png">
+                </div>
+            </div>
+            <div class="about_us_one">
+                <div class="about_us_one_text">
+                    <p>
+                        Забудьте про магазинчики вздовж дороги, 
+                        де за копійки продають сумнівний товар. 
+                        Не ризикуйте здоров'ям, щоб заощадити. 
+                        Ми гарантуємо якість! 
+                        Пропонуємо вигідні ціни! 
+                        Доставляємо по Україні.
+                    </p>
+                </div>
+                <div class="pict_about_us">
+                    <img src="img/значок5.png">
+                </div>
+            </div>
+        </section>
+        <section class="catalog_copy">
+            <div class="top_cat_one">
+                <p id="vartist_one">Вартість</p>
+            </div>
+            <div class="sec_cat_one">
+                <div class="odnorazky_cop">
+                    <div class="vidstyp">
+                        <p class="in_nazva_odnor">Одноразки</p>
+                    </div>
+                    <div class="one_sect">
+                        <div class="price_one_one">
+                            <p>
+                                300грн
+                            </p>
+                            <p>
+                                Elf bar 1500
+                            </p>
+                        </div>
+                    </div>
+                    <div class="one_sect">
+                        <div class="price_one_one">
+                            <p>
+                                380грн
+                            </p>
+                            <p>
+                                Elf bar 2000
+                            </p>
+                        </div>
+                    </div>
+                    <div class="one_sect">
+                        <div class="price_one_one">
+                            <p>
+                                450грн
+                            </p>
+                            <p>
+                                Elf bar 4000
+                            </p>
+                        </div>
+                    </div>   
+                </div>
+                <div class="odnorazky_cop">
+                    <div class="vidstyp">
+                        <p class="in_nazva_odnor">Рідини</p>
+                    </div>
+                    <div class="one_sect">
+                        <div class="price_one_two">
+                            <p>
+                                200грн
+                            </p>
+                            <p>
+                                Chaser10мл
+                            </p>
+                        </div>
+                    </div>
+                    <div class="one_sect">
+                        <div class="price_one_two">
+                            <p>
+                                280грн
+                            </p>
+                            <p>
+                                Chaser15мл
+                            </p>
+                        </div>
+                    </div>
+                    <div class="one_sect">
+                        <div class="price_one_two">
+                            <p>
+                                525грн
+                            </p>
+                            <p>
+                                Chaser30мл
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="odnorazky_cop">
+                    <div class="vidstyp">
+                        <p class="in_nazva_odnor">Картриджі</p>
+                    </div>
+                    <div class="one_sect">
+                        <div class="price_one_three">
+                            <p>
+                                110грн
+                            </p>
+                            <p>
+                                0.6 Ом 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="one_sect">
+                        <div class="price_one_three">
+                            <p>
+                                120грн
+                            </p>
+                            <p>
+                                0.8 Ом 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="one_sect">
+                        <div class="price_one_three">
+                            <p>
+                                125грн
+                            </p>
+                            <p>
+                                1.0 Ом 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section> 
+      </main>
+      <footer>
+        <div class="footer_boss">
+        </div>
+        <div class="videobox">
+            <video autoplay muted loop class="video1">
+                <sourse src="img/video_1foot.mp4"></sourse>
+            </video>
+        </div>
+            <div class="golovna">
+                <div class="footer_top_contacts">
+                    <p id="kont_one">Контакти</p>
+                </div>
+                
+                <div class="seredyna">
+                    <div class="all_mail_tel">
+                        <div class="mail">
+                            <p class="email_big">Email:</p>
+                            <p class="email_some">elfa.ua@gmail.com</p>
+                        </div>
+                        <div class="telefonu">
+                            <p class="telefon_big">Телефон:</p>
+                            <p class="telefon_some">+380955678432</p>
+                            <p class="telefon_some">+380465438651</p>
+                        </div>
+                    </div>
+                    <div class="meregi">
+                        <div>
+                            <p class="pidpus">Ми у соцмережах:</p>
+                        </div>
+                        <div class="img_inst">
+                            <div class="znachky">
+                                <img src="img/інста.png">
+                            </div>
+                            <div class="znachky">
+                                <img src="img/фейсбук.png">
+                            </div>
+                            <div class="znachky">
+                                <img src="img/телеграм.png">
+                            </div>
+                            <div class="znachky">
+                                <img src="img/вайбер.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="footer_logo">
+                <img src="img/Лого001.png">
+            </div>
+        </div>
+      </footer>
+    </body>
+</html>
